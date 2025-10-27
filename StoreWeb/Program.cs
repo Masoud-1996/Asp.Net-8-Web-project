@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using StoreWeb.Data;
+using StoreWeb.DataAccess.Data;
 
 namespace StoreWeb
 {

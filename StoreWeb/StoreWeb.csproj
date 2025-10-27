@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StoreWeb.DataAccess\StoreWeb.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

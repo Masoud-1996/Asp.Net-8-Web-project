@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using StoreWeb.Data;
+using StoreWeb.DataAccess.Data;
 using StoreWeb.Models;
+
 
 namespace StoreWeb.Controllers
 {

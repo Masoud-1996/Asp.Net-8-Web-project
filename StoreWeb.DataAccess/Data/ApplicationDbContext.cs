@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StoreWeb.Models;
 
-namespace StoreWeb.Data
+namespace StoreWeb.DataAccess.Data
 {
     public class ApplicationDbContext :DbContext
     {
@@ -10,7 +10,7 @@ namespace StoreWeb.Data
            
         }
 
-        public DbSet<Category> Categories  { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
